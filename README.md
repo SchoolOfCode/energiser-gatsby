@@ -16,4 +16,6 @@ You must include a unique path and title at the top of the file like so:
 path: "/balleybinbinbin"
 title: "Balley Bin Bin Bin"
 ---
+
+// github flavoured markdown energiser content here
 ```
