@@ -7,14 +7,16 @@
   SOC Energisers
 </h1>
 
-Welcome to the SOC energisers repo, if you want to add an energiser then please add a markdown file to the /energisers folder.
+Welcome to the SOC energisers repo, if you want to add an energiser then please add a markdown file to the /src/energisers folder.
 
 You must include a unique path and title at the top of the file like so:
 
+my-new-energiser.md
+
 ```md
 ---
-path: "/balleybinbinbin"
-title: "Balley Bin Bin Bin"
+path: "/mynewenergiser"
+title: "My New Energiser"
 ---
 
 // github flavoured markdown energiser content here

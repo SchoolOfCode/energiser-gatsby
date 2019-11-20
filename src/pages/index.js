@@ -10,15 +10,15 @@ const IndexPage = ({
   },
 }) => {
   const Posts = edges.map(edge => (
-    <li>
-      <PostLink key={edge.node.id} post={edge.node} />
+    <li key={edge.node.id}>
+      <PostLink post={edge.node} />
     </li>
   ))
 
   return (
     <Layout>
       <SEO title="Home" />
-      <pre>{`---------------------------------------\n--- School of Code --------------------\n------------------------ energisers ---\n---------------------------------------`}</pre>
+      <pre>{`---------------------------------------\n--- School of Code --------------------\n------------------------ Energisers ---\n---------------------------------------`}</pre>
       <ul className="energiser-list">{Posts}</ul>
     </Layout>
   )
