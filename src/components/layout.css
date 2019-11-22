@@ -55,3 +55,9 @@ a:hover {
 footer {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 450px) {
+  pre {
+    font-size: 4vw;
+  }
+}
