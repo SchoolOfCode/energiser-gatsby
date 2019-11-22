@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Cutive Mono", monospace;
   font-size: 1.15em;
+  font-weight: 600;
 }
 article,
 aside,
