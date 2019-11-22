@@ -18,7 +18,19 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <pre>{`---------------------------------------\n--- School of Code --------------------\n------------------------ Energisers ---\n---------------------------------------`}</pre>
+      <pre>
+        ---------------------------------------{`\n`}
+        ---{" "}
+        <a
+          href="https://www.schoolofcode.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          School of Code
+        </a>{" "}
+        --------------------{`\n`}------------------------ Energisers ---{`\n`}
+        ---------------------------------------
+      </pre>
       <ul className="energiser-list">{Posts}</ul>
     </Layout>
   )

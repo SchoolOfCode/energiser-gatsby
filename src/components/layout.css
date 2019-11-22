@@ -51,3 +51,7 @@ a:hover {
 .energiser-list {
   list-style: none;
 }
+
+footer {
+  margin-top: 10px;
+}
