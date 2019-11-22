@@ -26,11 +26,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Energisers`,
         short_name: `Energisers`,
         start_url: `/`,
-        background_color: `#008dd6;`,
-        theme_color: `#008dd6;`,
+        background_color: `#008dd6`,
+        theme_color: `#008dd6`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
