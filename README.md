@@ -7,7 +7,7 @@
   SOC Energisers
 </h1>
 
-Welcome to the SOC energisers repo, if you want to add an energiser then please branch off, add a markdown file to the /src/energisers folder and create a pull request.
+Welcome to the SOC energisers repo, if you want to add an energiser then please fork this project, add a markdown file to the /src/energisers folder and create a pull request.
 
 You must include a unique path and title at the top of the file like so:
 
