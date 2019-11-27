@@ -7,11 +7,11 @@ Set up three targets which you can throw things into. 1 close worth 10 points, 1
 
 ## Timed mode
 
-- 30s to score as many points as possible.
+- Each player has 30s to score as many points as possible.
 
 ## Other mode
 
 - take it in turns to take a shot at the 10 point target.
-- if you get it in you get another shot and you are now allowed to shoot for the 20 points.
-- if you get that in you can now shoot for the 50.
+- if successful then you get another which can now be at the 10 point or the 20 point bin.
+- if successful again then you can now shoot for all three bins.
 - if you miss then its the next persons go.
