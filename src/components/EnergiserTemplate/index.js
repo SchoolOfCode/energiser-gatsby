@@ -10,14 +10,14 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <SEO title={frontmatter.title} />
-      <div className="blog-post">
+      <main className="blog-post">
         <Link to="/">{`<-- `}back</Link>
         <h1>{frontmatter.title}</h1>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-      </div>
+      </main>
     </div>
   )
 }
