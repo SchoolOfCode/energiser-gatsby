@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import PostLink from "../components/PostLink"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = ({
@@ -16,7 +15,7 @@ const IndexPage = ({
   ))
 
   return (
-    <Layout>
+    <>
       <SEO title="Home" />
       <pre>
         ---------------------------------------{`\n`}
@@ -28,11 +27,28 @@ const IndexPage = ({
         >
           School of Code
         </a>{" "}
-        --------------------{`\n`}------------------------ Energisers ---{`\n`}
+        --------------------{`\n`}------------------------{" "}
+        <h1 id="energiser-heading">Energisers</h1> ---{`\n`}
         ---------------------------------------
       </pre>
       <ul className="energiser-list">{Posts}</ul>
-    </Layout>
+      <footer>
+        <pre>
+          ---------------------------------------{"\n"}
+          ---------------{" "}
+          <a
+            href="https://github.com/SchoolOfCode/energiser-gatsby"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>{" "}
+          ----------------
+          {"\n"}
+          ---------------------------------------
+        </pre>{" "}
+      </footer>
+    </>
   )
 }
 

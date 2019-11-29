@@ -32,6 +32,10 @@ video {
 pre {
   font-family: "Cutive Mono", monospace;
 }
+#energiser-heading {
+  font-size: inherit;
+  display: inline;
+}
 ul {
   line-height: 120%;
 }
